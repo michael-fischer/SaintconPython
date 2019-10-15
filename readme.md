@@ -6,7 +6,7 @@
 # Introduction
 The purpose of this training is to go from 0-60 with Python within a day.  We have about 7 hours to cover a lot of material.  Your typical conference information through a fire hose reminiscent of any hollywood movie depicting chow time during boot camp.
 
-Although not  not strictly tied to the the morning and afternoon session we will cover the following:
+Although not  not strictly tied to the morning and afternoon session we will cover the following:
 
 * Morning Session - Python Basics
   
