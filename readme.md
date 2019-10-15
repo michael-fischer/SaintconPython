@@ -27,7 +27,7 @@ Completion of the material in this course will provide you with a basic foundati
 
 **This is a hands on training and you will spend much of the time writing Python code.**
 
-Please be sure to check out the [Prerequisites](Module00/module00-readme.md) to help get started prior to the day if you need to.  
+Please be sure to check out the [Prerequisites](Module00/module0-readme.md) to help get started prior to the day if you need to.  
 
 # Some useful links
 [Python main website](https://www.python.org/) - Downloads, Documents and Tutorials for Python.
