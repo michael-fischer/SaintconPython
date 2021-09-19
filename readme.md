@@ -37,9 +37,9 @@ Please be sure to check out the [Prerequisites](Module&#32;00&#32;-&#32;Front&#3
 - [Downloads](https://www.python.org/downloads/)
 - [Documentation](https://www.python.org/doc/) 
 
-    Offline 3.7.4 - [[PDF](https://docs.python.org/3/archives/python-3.7.4-docs-pdf-letter.zip) | [EPUB](https://docs.python.org/3/archives/python-3.7.4-docs.epub) | [HTML](https://docs.python.org/3/archives/python-3.7.4-docs-html.zip) | [Text](https://docs.python.org/3/archives/python-3.7.4-docs-text.zip)]
+    Offline 3.9.7 - [[PDF](https://docs.python.org/3/archives/python-3.9.7-docs-pdf-letter.zip) | [EPUB](https://docs.python.org/3/archives/python-3.9.7-docs.epub) | [HTML](https://docs.python.org/3/archives/python-3.9.7-docs-html.zip) | [Text](https://docs.python.org/3/archives/python-3.9.7-docs-text.zip)]
 
-    Offline 2.7.16 - [[PDF](https://docs.python.org/2/archives/python-2.7.16-docs-pdf-letter.zip) | [HTML](https://docs.python.org/2/archives/python-2.7.16-docs-html.zip) | [Text](https://docs.python.org/2/archives/python-2.7.16-docs-text.zip)]
+    Offline 2.7.18 - [[PDF](https://docs.python.org/2/archives/python-2.7.18-docs-pdf-letter.zip) | [HTML](https://docs.python.org/2/archives/python-2.7.18-docs-html.zip) | [Text](https://docs.python.org/2/archives/python-2.7.18-docs-text.zip)]
 
 - [Tutorials]()
 
