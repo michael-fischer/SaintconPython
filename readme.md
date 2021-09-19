@@ -1,7 +1,6 @@
 
 # Welcome
-![Saintcon 2019](images/sc-logo-2019.svg) 
-![There will be code!](images/ThereWillBeCode.png) 
+![Saintcon 2019](images/logo.jpg) 
 
 # Introduction
 The purpose of this training is to go from 0-60 with Python within a day.  We have about 7 hours to cover a lot of material.  Your typical conference information through a fire hose reminiscent of any hollywood movie depicting chow time during boot camp.
@@ -31,30 +30,6 @@ Please be sure to check out the [Prerequisites](Module&#32;00&#32;-&#32;Front&#3
 
 # Table of Contents
 [Module 0 - Prerequisites](Module&#32;00&#32;-&#32;Front&#32;Matter/readme.md)
-
-[Module 1 - Start Your Engines](Module&#32;01&#32;-&#32;Start&#32;Your&#32;Engines/readme.md)
-
-[Module 2 - All the Math You Need to Know](Module&#32;02&#32;-&#32;All&#32;the&#32;math&#32;you&#32;need&#32;to&#32;know/readme.md)
-
-[Module 3 - Strings and Other Types](Module&#32;03&#32;-&#32;Strings&#32;and&#32;Other&#32;Types/readme.md)
-
-[Module 4 - Common Functions](Module&#32;04&#32;-&#32;Common&#32;Functions/readme.md)
-
-[Module 5 - Lambdas and List Comprehensions](Module&#32;05&#32;-&#32;Lambdas&#32;and&#32;List&#32;Comprehension/readme.md)
-
-[Module 6 - Functions](Module&#32;06&#32;-&#32;Functions/readme.md)
-
-[Module 7 - Exceptions](Module&#32;07&#32;-&#32;Exceptions/readme.md)
-
-[Module 8 - Decorators](Module&#32;08&#32;-&#32;Decorators/readme.md)
-
-[Module 9 - Working with Files](Module&#32;09&#32;-&#32;Working&#32;with&#32;Files/readme.md)
-
-[Module 10 - Pip and Venv](Module&#32;10&#32;-&#32;Pip&#32;and&#32;Env/readme.md)
-
-[Module 11 - Office Documents](Module&#32;11&#32;-&#32;Office&#32;Documents/readme.md)
-
-[Module 12 - Requests](Module&#32;12&#32;-&#32;Requests/readme.md)
 
 # Some useful links
 [Python main website](https://www.python.org/) - Downloads, Documents and Tutorials for Python.

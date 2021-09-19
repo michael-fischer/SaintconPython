@@ -1,11 +1,9 @@
 # Which version of Python should I use?
-Python 3 was released in 2008 and still has not become the main version of python due to the large amount of code that has been written based on Python 2.  That time for Python 3 is coming soon as Python 2 will soon be retired.
-
-A quick look at the [Python Clock](https://pythonclock.org/) will show you how much time is left in the lifespan of Python 2.7.  Since Python 2.7 will not be maintained after January 1, 2020 any new projects that you start should use Python 3.x+.
+Python 3 was released in 2008 and still has not become the main version of python due to the large amount of code that has been written based on Python 2.  Since Python 2 will not be maintained after January 1, 2020 any new projects that you start should use Python 3.x+.
 
 It is possible that you will work on Python projects that use 2.x.  There are some differences that you need to keep in mind.
 
-<span style="color:red">**This course requires that Python 3.4 or later.**</span>  If you are just installing Python that should not be a problem as the latest version is 3.7.4.  Unless I upgrade I will be using Python 3.7.2.  If you already have Python 3 installed you can check the version of Python with the command `Python3 --version`
+<span style="color:red">**This course requires that Python 3.4 or later.**</span>  If you are just installing Python that should not be a problem as the latest version is 3.9.7.  Unless I upgrade I will be using Python 3.9.5.  If you already have Python 3 installed you can check the version of Python with the command `Python3 --version`
 
 Most of the content in this course would work with Python 2.x but there are some significant enough changes between the two that some examples will not work.  Since there is a short amount of time this course will focus on Python 3 only.  There are sme quick hints on Python2 versus 3 below.
 
@@ -22,7 +20,7 @@ Python is available for download for [Windows](https://www.python.org/downloads/
 
 ## Installing on Windows, Linux/Unix, Mac OS X
 
-1. Download the latest python version [[3.7.4](https://www.python.org/downloads/release/python-374/) | [2.7.16](https://www.python.org/downloads/release/python-2716/)].  If, for some reason you are running an old version Windows, please note that Python 3.5 and later will not run on Windows XP and earlier.
+1. Download the latest python version [[3.9.7](https://www.python.org/downloads/release/python-397/) | [2.7.18](https://www.python.org/downloads/release/python-2718/)].  If, for some reason you are running an old version Windows, please note that Python 3.5 and later will not run on Windows XP and earlier.
 
 ### Using a package manager on linux
 On linux systems you can search for available Python packages by using the following commands.
