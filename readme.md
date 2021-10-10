@@ -54,12 +54,9 @@ Please be sure to check out the [Prerequisites](Module&#32;00&#32;-&#32;Front&#3
 
 [Packt Free Book of the Day](https://www.packtpub.com/free-learning) - A free "book" every day. Often these books are on Python topics.  While they used to provide access to a electronic version of the book, these books are now viewed through their online reader.  In addition to the book of the day Packt has several books available for free.  Examples of items that were available at the time this page was written include:
 
--  [Learning Python](https://www.packtpub.com/free-ebooks/learning-python)
-- [Mastering Python](https://www.packtpub.com/free-ebooks/mastering-python)
-- [What You Need to Know About Python](https://www.packtpub.com/free-ebooks/what-you-need-know-about-python)
-- [Advanced Machine learning With Python](https://www.packtpub.com/free-ebooks/advanced-python-machine-learning)
-- [Learning OpenCV 3 Computer Vision with Python 2nd Edition](https://www.packtpub.com/free-ebooks/opencv-python)
-- [Raspberry Pi Cookbook for Python Programmers](https://www.packtpub.com/free-ebooks/python-raspberry-pi-cookbook)
+- [Learn Python Programming - Second Edition](https://www.packtpub.com/free-ebook/learn-python-programming-second-edition/9781788996662)
+- [Hands-On Natural Language Processing with Python](https://www.packtpub.com/free-ebook/hands-on-natural-language-processing-with-python/9781789139495)
+- [Django RESTful Web Services](https://www.packtpub.com/free-ebook/django-restful-web-services/9781788833929)
 
 [Humble Bundle](https://www.humblebundle.com/) - Humble isn't just for Games.  Several times have had bundles for books, videos, and trainings on Python.
 
