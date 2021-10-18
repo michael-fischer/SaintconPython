@@ -3,7 +3,7 @@ Python 3 was released in 2008 and still has not become the main version of pytho
 
 It is possible that you will work on Python projects that use 2.x.  There are some differences that you need to keep in mind.
 
-<span style="color:red">**This course requires that Python 3.4 or later.**</span>  If you are just installing Python that should not be a problem as the latest version is 3.9.7.  Unless I upgrade I will be using Python 3.9.5.  If you already have Python 3 installed you can check the version of Python with the command `Python3 --version`
+<span style="color:red">**This course requires that Python 3.4 or later.**</span>  If you are just installing Python that should not be a problem as the latest version is 3.10.0.  Unless I upgrade I will be using Python 3.9.5 for the majority of demos.  If you already have Python 3 installed you can check the version of Python with the command `Python3 --version`
 
 Most of the content in this course would work with Python 2.x but there are some significant enough changes between the two that some examples will not work.  Since there is a short amount of time this course will focus on Python 3 only.  There are sme quick hints on Python2 versus 3 below.
 
@@ -20,7 +20,7 @@ Python is available for download for [Windows](https://www.python.org/downloads/
 
 ## Installing on Windows, Linux/Unix, Mac OS X
 
-1. Download the latest python version [[3.9.7](https://www.python.org/downloads/release/python-397/) | [2.7.18](https://www.python.org/downloads/release/python-2718/)].  If, for some reason you are running an old version Windows, please note that Python 3.5 and later will not run on Windows XP and earlier.
+1. Download the latest python version [[3.10.0](https://www.python.org/downloads/release/python-3100/) | [2.7.18](https://www.python.org/downloads/release/python-2718/)].  If, for some reason you are running an old version Windows, please note that Python 3.5 and later will not run on Windows XP and earlier.
 
 ### Using a package manager on linux
 On linux systems you can search for available Python packages by using the following commands.
@@ -35,6 +35,10 @@ On linux systems you can search for available Python packages by using the follo
 or
 
     sudo apt-get install python3
+
+or a specifc version
+
+    sudo apt-get install python3.10
 
 ### Using docker
 If you are running docker a quick way to test something in the Python interactive shell.
