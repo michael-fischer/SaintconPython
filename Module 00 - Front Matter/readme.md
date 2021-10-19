@@ -1,9 +1,7 @@
 # Which version of Python should I use?
-Python 3 was released in 2008 and still has not become the main version of python due to the large amount of code that has been written based on Python 2.  Since Python 2 will not be maintained after January 1, 2020 any new projects that you start should use Python 3.x+.
+Python 3 was released in 2008 and took an extremely long tine to become the main version of python due to the large amount of code that has been written based on Python 2.  Since Python 2 has not been maintained as of January 1, 2020 any new projects that you start should use Python 3.x+. It is possible that you will work on Python projects that use 2.x.  There are some differences that you need to keep in mind.
 
-It is possible that you will work on Python projects that use 2.x.  There are some differences that you need to keep in mind.
-
-<span style="color:red">**This course requires that Python 3.4 or later.**</span>  If you are just installing Python that should not be a problem as the latest version is 3.10.0.  Unless I upgrade I will be using Python 3.9.5 for the majority of demos.  If you already have Python 3 installed you can check the version of Python with the command `Python3 --version`
+<span style="color:red">**This course requires Python 3.5 or later.**</span>  If you are just installing Python that should not be a problem as the latest version is 3.10.0.  I will be using Python 3.9.5 for the majority of demos.  If you already have Python 3 installed you can check the version of Python with the command `Python3 --version`
 
 Most of the content in this course would work with Python 2.x but there are some significant enough changes between the two that some examples will not work.  Since there is a short amount of time this course will focus on Python 3 only.  There are sme quick hints on Python2 versus 3 below.
 
@@ -78,8 +76,11 @@ Each line, all one of them, were executed sequentially before the program exited
 
 If you got this far, we are ready to start learning Python!
 
-# Pycharm 
-To help accelerate our productivity I recommend the use of a free product to take care of some of the minutiae for us.  Pycharm Community Edition is a fee integrated development environment for '*pure Python development*` released by JetBrains.   You can download PyCharm from the [JetBrains website](https://www.jetbrains.com/pycharm/download/).  The website will automatically detect your operating system but you can still chose whether you want to download a version for Windows, MacOs, or Linux.
+# IDEs
+IDEs make it easy to develop and debug python code. You can get by with a plan old text editor but you may want to cosider using an IDE.  An IDE is a personal choice so do not take either of these as an endorsmeent of the product.  They are simply the two that I have been using lately.  My choice has been predicated on that fact that I use Windows, Mac, and Linux computers interchangably and both of these products allow me to stay productive with the same keyboard bindings.  Your milage may vary.  
+
+## Pycharm 
+ Pycharm Community Edition is a fee integrated development environment for '*pure Python development*` released by JetBrains.   You can download PyCharm from the [JetBrains website](https://www.jetbrains.com/pycharm/download/).  The website will automatically detect your operating system but you can still chose whether you want to download a version for Windows, MacOs, or Linux.
 
 **Note**: if you are using the Snap package manager on *Ubunto* you can install Pycharm with the following command (all on one line):
 
@@ -89,6 +90,8 @@ To help accelerate our productivity I recommend the use of a free product to tak
 
     choco install pycharm-community
 
+## Visual Studio Code
+Microsoft already has a great tutorial for [Getting Started with Python on VS Code](https://code.visualstudio.com/docs/python/python-tutorial).  If you would like to use that IDE please follow the istructions in that tutorial.  
 
 # Preparing for the future
 Sometimes you wont have a choice to work in Python 3.  Maybe you need to use a library that is only available in Python 2.  For that they have made the [future possible](http://python-future.org/) in Python 2.  This compatibility layer has *future* and *past* packages with forward and back ports of features
