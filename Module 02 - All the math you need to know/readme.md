@@ -67,15 +67,33 @@ This module will introduce the concepts of decision making and looping construct
 | 0 | 1 | 0 | 1 | 1 |  
 | 0 | 0 | 0 | 0 | 0 | 
 
+## Code for the Truth Table
+```python
+a = 0
+b = 1
+
+print("   A\t  B\t  A & B\t\tA | B\tA ^ B")
+print("  ", a, "\t ", a, "\t  ", a & a, "\t\t ", a | a, "\t ", a^a)
+print("  ", a, "\t ", b, "\t  ", a & b, "\t\t ", a | b, "\t ", a^b)
+print("  ", b, "\t ", a, "\t  ", b & a, "\t\t ", b | a, "\t ", b^a)
+print("  ", b, "\t ", b, "\t  ", b & b, "\t\t ", b | b, "\t ", b^b)
+
+#results
+ #  A      B       A & B         A | B   A ^ B
+ #  0      0        0              0       0
+ #  0      1        0              1       1
+ #  1      0        0              1       1
+ #  1      1        1              1       0
+```
 
 ## Logical operators
-For the purpose of logical operators False  is zero and True is Non Zero.
+For the purpose of logical operators False is zero and True is Non Zero.
 
 | Operator | Symbol | Description | 
 | :-: | :-: | :-: | 
-| Logical AND | AND | Returns True if both operands are True | 
-| Logical OR | OR | Returns True if either of the operands are True |
-| Logical NOT | NOT | Reverses the logical state of the operator |
+| Logical AND | and | Returns True if both operands are True | 
+| Logical OR | or | Returns True if either of the operands are True |
+| Logical NOT | not | Reverses the logical state of the operator |
 
 ### Logical Truth Table 
 |  A  |  B  | A AND B | A OR B  | NOT A | 
@@ -85,13 +103,34 @@ For the purpose of logical operators False  is zero and True is Non Zero.
 | F | T | F | T | T | 
 | F | F | F | F | T |
 
+### Code for the Lgoical Truth Table
+```python
+a = True
+b = False
+
+print("    A\t\t   B\t\t  A and B\t A or B\t\t not A")
+print("  ", a, "\t ", a, "\t\t  ", a and a, "\t ", a or a, "\t\t ", not a)
+print("  ", a, "\t ", b, "\t  ", a and b, "\t ", a or b, "\t\t ", not a)
+print("  ", b, "\t ", a, "\t\t  ", b and a, "\t ", b or a, "\t\t ", not b)
+print("  ", b, "\t ", a, "\t\t  ", b and b, "\t ", b or b, "\t ", not b)
+
+# results
+#    A              B              A and B        A or B          not A
+#   True           True             True           True            False
+#   True           False            False          True            False
+#   False          True             False          True            True
+#   False          True             False          False           True
+```
+
 ## Seeing the difference between bitwise and logical operators
 
-    # Set two variables with integers and perform both  bitwise and logical operations on them
+```python
+    # Set two variables with integers and perform both bitwise and logical operations on them
     x = 5
     y = 7
     bitwise = a & b     # this returns 5
     logical = a and b   # this returns 7
+```
 
 Bitwise operations will make comparisons at the, you guessed it, bit level.  Resulting in:
 
@@ -261,4 +300,4 @@ while num < 10:
 
 # Summary
 
-This is a quick in depth look at decision making and looping.  It is good to know but shortly we will see some more pythonic ways to accomplish this.
+This was in depth quick look at decision making and looping.  It is good to know but shortly we will see some more pythonic ways to accomplish this.

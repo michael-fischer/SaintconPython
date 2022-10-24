@@ -1,5 +1,5 @@
 
-There are some steps to 
+There are some steps required to configure Burp to run properly. 
 
 - Start Burp
 - Configure browser to use Burp

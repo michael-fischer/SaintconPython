@@ -1,6 +1,6 @@
 
 # Welcome
-![Saintcon 2019](images/logo.jpg) 
+![Saintcon 2022](images/logo.jpg) 
 
 # Introduction
 The purpose of this training is to go from 0-60 with Python within a day.  We have about 7 hours to cover a lot of material.  Your typical conference information through a fire hose reminiscent of any hollywood movie depicting chow time during boot camp.
@@ -37,9 +37,10 @@ Please be sure to check out the [Prerequisites](Module&#32;00&#32;-&#32;Front&#3
 - [Downloads](https://www.python.org/downloads/)
 - [Documentation](https://www.python.org/doc/) 
 
-    Offline 3.9.7 - [[PDF](https://docs.python.org/3/archives/python-3.9.7-docs-pdf-letter.zip) | [EPUB](https://docs.python.org/3/archives/python-3.9.7-docs.epub) | [HTML](https://docs.python.org/3/archives/python-3.9.7-docs-html.zip) | [Text](https://docs.python.org/3/archives/python-3.9.7-docs-text.zip)]
+    Offline 3.10.6 - [[PDF](https://docs.python.org/3/archives/python-3.9.7-docs-pdf-letter.zip) | [EPUB](https://docs.python.org/3/archives/python-3.9.7-docs.epub) | [HTML](https://docs.python.org/3/archives/python-3.9.7-docs-html.zip) | [Text](https://docs.python.org/3/archives/python-3.9.7-docs-text.zip)]
 
-    Offline 2.7.18 - [[PDF](https://docs.python.org/2/archives/python-2.7.18-docs-pdf-letter.zip) | [HTML](https://docs.python.org/2/archives/python-2.7.18-docs-html.zip) | [Text](https://docs.python.org/2/archives/python-2.7.18-docs-text.zip)]
+    # 3.9.7
+    # Tke the above line out...
 
 - [Tutorials]()
 

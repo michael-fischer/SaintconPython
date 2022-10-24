@@ -1,4 +1,4 @@
-# Decorators (move to another section????)
+# Decorators 
 Inheritance is one way of extending fucntionality within python code.  However, there is another powerful feature that exists called decorators. Decorators are a special from of functions that wrap other functions to 'extend' the functionality of the method.   They follow a simple formula as shown below.
 
 ```python
@@ -25,7 +25,7 @@ my_function()
 
 But wait, how is this decorating anything.  You caught me. What is happening in the code above is that we are seeing that functions can be passed as parameters in methods.  There is one minor change that needs to be done to our example above that we will see in some demos later. For your convenience it is included in the [Decorator template](decorator_template.py) and below. 
 
-Let us take a second to think about the code above.  Tbe `my_decorator()` function defines an inner function called `wrapper()` and simply returns it.  So we have the ability to return a function from a function in Python.  The line `my_function = my_decorator(my_function)` shows that we can pass a function as a parameter.  `my_function` is passed into the `my_decorator` function and then used within the inner `wrapper` function.  This is defined as a *closure*.  A closure is a way to define a function that remembers the enclosing scopes.  There are 3 criteria that has to be meet to define a closure.
+Let us take a second to think about the code above.  The `my_decorator()` function defines an inner function called `wrapper()` and simply returns it.  This provides us the ability to return a function from a function in Python.  The line `my_function = my_decorator(my_function)` shows that we can pass a function as a parameter.  `my_function` is passed into the `my_decorator` function and then used within the inner `wrapper` function.  This concept is known as a *closure*.  A closure is a way to define a function that remembers the enclosing scopes.  There are 3 criteria that has to be meet to define a closure.
 
 1. A function must be nested within another function
 2. The nested function must refer to a value defined in the enclosing function

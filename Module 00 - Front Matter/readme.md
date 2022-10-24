@@ -1,24 +1,26 @@
 # Which version of Python should I use?
 Python 3 was released in 2008 and took an extremely long tine to become the main version of python due to the large amount of code that has been written based on Python 2.  Since Python 2 has not been maintained as of January 1, 2020 any new projects that you start should use Python 3.x+. It is possible that you will work on Python projects that use 2.x.  There are some differences that you need to keep in mind.
 
-<span style="color:red">**This course requires Python 3.5 or later.**</span>  If you are just installing Python that should not be a problem as the latest version is 3.10.0.  I will be using Python 3.9.5 for the majority of demos.  If you already have Python 3 installed you can check the version of Python with the command `Python3 --version`
+<span style="color:red">**This course requires Python 3.5 or later.**</span>  If you are just installing Python that should not be a problem as the latest version is 3.10.8.  I will be using Python 3.8.9 for the majority of demos if I use my mac and 3.10.6 if I bring my linux box.  If you already have Python 3 installed you can check the version of Python with the command `Python3 --version`.  Please not that while working on this Python 3.11 was in release candidate.
 
 Most of the content in this course would work with Python 2.x but there are some significant enough changes between the two that some examples will not work.  Since there is a short amount of time this course will focus on Python 3 only.  There are sme quick hints on Python2 versus 3 below.
 
 # Is it installed already?
 1. Open a terminal.
-2. run the command `python -V` and note the results.  For Windows system this will most likely give you an error. On Linux and Mac OS X system it will return the version of Python 2.x that is installed on you system.
-3. Now try the command `python3 -V` and note the results.  
+2. run the command `python -V` and note the results.  For Windows system and up to date Mac OS and Linux this will most likely give you an error. On Linux and Mac OS X system it will return the version of Python 2.x that is installed on you system if you have Python 2 installed.  
+3. Now try the command `python3 -V` and note the results.  On my Macbook this returns `Python 3.8.9`
 
-# Why does `python -V` load version 2.x if you said 3.x is all the rage?
-Python 2 is the default due to the wide install base of the language.  Many programs out there are written for Python 2.x.  Switching this default may break scripts that you use and have writing since there are breaking changes between Python 2 and Python 3.  You can read all about the rationale behind this decision in [PEP 394](https://www.python.org/dev/peps/pep-0394/). If you really want to make this change, you can.  However, I would recommend against it,    
+# Why does `python -V` refer to version 2.x if you said 3.x is all the rage?
+Python 2 is the default due to the wide install base of the language.  Many programs out there are written for Python 2.x.  Switching this default may break scripts that you use and have writing since there are breaking changes between Python 2 and Python 3.  You can read all about the rationale behind this decision in [PEP 394](https://www.python.org/dev/peps/pep-0394/). It is possible to make `python` run  Python 3.  If you really want to make this change, you can.  However, I would recommend against it,    
 
 # Installing Python
 Python is available for download for [Windows](https://www.python.org/downloads/windows/), [Linux/Unix](https://www.python.org/downloads/source/), [Mac OS X](https://www.python.org/downloads/mac-osx/) and [Other](https://www.python.org/download/other/) operating systems.
 
 ## Installing on Windows, Linux/Unix, Mac OS X
 
-1. Download the latest python version [[3.10.0](https://www.python.org/downloads/release/python-3100/) | [2.7.18](https://www.python.org/downloads/release/python-2718/)].  If, for some reason you are running an old version Windows, please note that Python 3.5 and later will not run on Windows XP and earlier.
+1. Download the latest python version [[3.10.7](https://www.python.org/downloads/release/python-3107/). If, for some reason you are running an old version Windows, please note that Python 3.5 and later will not run on Windows XP and earlier.
+
+Note: Python 3.11 was released on 3 October 2022.
 
 ### Using a package manager on linux
 On linux systems you can search for available Python packages by using the following commands.
@@ -80,7 +82,7 @@ If you got this far, we are ready to start learning Python!
 IDEs make it easy to develop and debug python code. You can get by with a plan old text editor but you may want to cosider using an IDE.  An IDE is a personal choice so do not take either of these as an endorsmeent of the product.  They are simply the two that I have been using lately.  My choice has been predicated on that fact that I use Windows, Mac, and Linux computers interchangably and both of these products allow me to stay productive with the same keyboard bindings.  Your milage may vary.  
 
 ## Pycharm 
- Pycharm Community Edition is a fee integrated development environment for '*pure Python development*` released by JetBrains.   You can download PyCharm from the [JetBrains website](https://www.jetbrains.com/pycharm/download/).  The website will automatically detect your operating system but you can still chose whether you want to download a version for Windows, MacOs, or Linux.
+ Pycharm Community Edition is a fee integrated development environment for '*pure Python development*` released by JetBrains.   You can download PyCharm from the [JetBrains website](https://www.jetbrains.com/pycharm/download/).  The website will automatically detect your operating system but you can still chose whether you want to download a version for Windows, MacOs, or Linux.  For MacOs you need to choose between Intel and Apple silcon (M1) based version
 
 **Note**: if you are using the Snap package manager on *Ubunto* you can install Pycharm with the following command (all on one line):
 

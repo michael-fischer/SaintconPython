@@ -73,3 +73,45 @@ class CustomException(Exception):
 raise CustomeException("This is my customer exception")
 
 ```
+## Exceptions Groups
+New to `Python 3.11` is the concept of exceptions groups.  Exception Groups give you the ability to raise multiple exceptions at the same time.  Using a modified syntax it is possible to catch both of the exceptions to execute multple paths of code.
+
+```python
+def raise_exception_group():
+    raise ExceptionGroup(
+        "Description from ExceptionGroup", # Group wrapper
+        [
+            ValueError("ValueError"), # First exception in group
+            TypeError("TypeError") # Second exception in group
+        ]
+    )
+
+
+def main():
+    try:
+        raise_exception_group()
+    except* ValueError:
+        print("Value Error!")
+    except* TypeError:
+        print("Type Error!")
+
+```
+In the preceding example both `Value Error!` and `Type Error!` would be displayed.  This is possible due to the `ExceptionGroup()` that was raised and the `except*` syntax.
+
+## Exceptions Notes
+Also new to `Python 3.11` is the ability to add a note to an exception that is thrown.  This allows you to add additional context to an excpetion that was caught and add more details to the traceback.
+
+```python
+def raise_exception():
+    raise Exception("An Error occured")
+
+
+def main():
+    try:
+        raise_exception()
+    except Exception as ex:
+        ex.add_note("add_note is a new method that will add addtional context to your exception") 
+        raise
+
+main()
+```

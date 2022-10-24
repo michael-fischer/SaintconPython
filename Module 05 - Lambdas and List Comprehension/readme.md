@@ -1,3 +1,5 @@
+# Welcome
+
 One very important aspect to Python that must be understood to  be productive.  That is the Lambda.  Lambdas are small anonymous functions.  These anonymous functions are defined by the *variables* they require and the *expression* that represents the function.  A simple lambda looks as follows
 
 ```python
@@ -5,7 +7,7 @@ One very important aspect to Python that must be understood to  be productive.  
 # will print 4
 ```
 
-This may look confusing and useless.  At the minimum look like a lot more typeing.  But the power of lambdas can soon become apparent.  Consider the following code.
+This may look confusing and useless.  At the minimum it looks like a lot more typeing.  But the power of lambdas will soon become apparent.  Consider the following code.
 
 ```python
 l = lambda n : n * n  # will print 4
@@ -22,9 +24,9 @@ l = lambda a, b, c: a + b + c
 print(l(2, 3, 4))       # will print 9
 ```
 
-You will invariably see lambdas in code that you use and may be tempted to use them in your own.  Some things to keep in mind is that lambdas have a strange and difficult syntax that require that you think in a different manner and provide a really descriptive 'lambda' instead of a function name in any Traceback.  Unless you are writing a framework or working with a framework method that requires one it may assitt in debugging to work with functions (which are covered in the next section).
+You will invariably see lambdas in code that you use and may be tempted to use them in your own.  Some things to keep in mind is that lambdas have a strange and difficult syntax that require that you think in a different manner and provide a really descriptive 'lambda' instead of a function name in any Traceback.  Unless you are writing a framework or working with a framework method that requires one it may assitt in debugging to work with functions (which are covered in the next section) instead.
 
-A lot of the time you will find that list comprehensions will replace a lambda fairly well.
+A lot of the time you will find that list comprehensions replace lambdaw fairly well.
 
 # List Comprehensions
 A list comprehension is Python syntax to creates a new list from other iterables.  Let's recall the square function that was used earlier to see how list comprehensions can clean up our code

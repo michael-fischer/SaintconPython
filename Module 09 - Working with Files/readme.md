@@ -1,13 +1,13 @@
 
 # File Access
 
-Working with files is one of the prime usages for writing Python scripts. It is important to have a good understanding of how to perform operations with files.  You can easily read, write, create, and delete files in Python.
+Working with files is one of the prime usages for Python scripts. It is important to have a good understanding of how to perform operations with files.  You can easily read, write, create, and delete files in Python.
 
 While we we will see other options later, this section will deal with the basic operations built into the standard library - working with files using open().  Open will return a File object. The format for open is *open(filename[, mode[, buffering]])*.  If the file cannot be opened it will return an IOError. 
 
 filename - the name of the file to open
 
-mode - 
+mode - how to open the file for processing
 
 |mode|details|
 |-|-|

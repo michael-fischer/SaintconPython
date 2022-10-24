@@ -1,6 +1,6 @@
 # Office Documents 
 
-Sometimes it is useful to be able to read and write office files.  Most commonly it has been necessary to either generate Excel or Word documents.  When sending data between applications it is good to stick to text based formats such as CSV or JSON.  However, when you need to prepare material for a presentation sometimes text just doe not cut it.   It is up to you as the developer to decide how much formatting and tweaking needs to be done. 
+Sometimes it is useful to be able to read and write office files.  Most commonly it is necessary to either generate Excel or Word documents for reporting purposes.  When sending data between applications it is still better to stick to text based formats such as CSV or JSON.  However, when you need to prepare material for a presentation sometimes text just doe not cut it. It is up to you, as the developer, to decide how much formatting and tweaking needs to be done. 
 
 ## Writing Excel Files
 Writing an excel file is simple with the xlwt library.  First it is necessary to import the xlwt library from PyPI with the following command from the command line.
@@ -117,7 +117,7 @@ for r in range(sheet.nrows):
 
 
 ## Writing to a Word Document
-For this one we need to cheat a little bit. For writing text I have not seen the need to create a word document from scratch.  It is more likely that you will need to use a mail merge and a preexisting [template](Remediation&#32;Report&#32;Template.docx).
+For this one we need to cheat a little bit as I have not seen the need to create a completely new word document from scratch.  However, it is realitvely easy to use a preexisting word document and the mail merge functionality to create a report.  You can review our preexisting [template](Remediation&#32;Report&#32;Template.docx).
 
 [Mail merge example](mail_merge.py)
 ```python

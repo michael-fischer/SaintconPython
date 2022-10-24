@@ -35,7 +35,7 @@ See how the `global` keyword allowed us to change the value in third() while the
 The output from the id() calls will be will change every time the script is executed but two pairs of values will match.  Line 1 should match line 3 and line 4 should match line 5.  
 
 # Functions
-Functions simply allow you to create small reusable sections of code.  They are customizable through the use of parameters and have the ability to return results if desired.  By breaking code into smaller sections complex actions can be reduced to smaller and earier to follow and potentially debug. 
+Functions simply allow you to create small reusable sections of code.  They are customizable through the use of parameters and have the ability to return results if desired.  By breaking code into smaller sections complex actions can be reduced to smaller and easier to follow, comprehend  and potentially debug. 
 
 Functions are defined by the _def_ keyword, followed by the name of the function and some parameters and a colon.  In the most basic form you have:
 
@@ -56,7 +56,7 @@ def say_hello(name):
 say_hello('Bob')
 ```
 
-In other languages parameters are either passed by reference or passed by value.  Python takes another approach and parameters are passed by assignment.  Everything in Python is an object.  Objects can either be mutable or immutable.  Immutable types include bool, int, float, tuple, and string.  Mutable types ae list, set, and dict.    
+In other languages parameters are either passed by reference or passed by value.  Python takes another approach and parameters are passed by assignment meaning arguments are passed by automatically assigning objects to local variable names. Everything in Python is an object.  Objects can either be mutable or immutable.  In pass by assignment the mutability of an object matters.  Immutable types cannot be change and mutable types can.   Immutable types include `bool`, `int`, `float`, `tuple`, and `string`.  Examples of mutable types include `list`, `set`, and `dict`.  
 
 ```python
 # Demonstration of immutability in Python
@@ -68,11 +68,11 @@ def func(num):
 x = 5
 print(id(x))                # This will print some identifier such as 140405731523368
 func(x)
-print(x)                     # This is still 5 after the function returns 
+print(x)                     # However, this is still 5 after the function returns 
 ```    
 
 ### Advanced usage of function parameters
-Let's quickly look at two advanced function declarations.
+Let's quickly look at two more advanced function techniques.
 
 #### Named Parameters (AKA: Optional/Default/Keyword Arguments)
 
@@ -86,7 +86,7 @@ print(exp(2))           # This will print 4, the result of 2 raised to the 2nd p
 print(exp(2, power=3))  # This will print 8, the result of 2 raised to the 3rd power
 ```
 
-#### kwargs
+#### args and kwargs
 
 There is a special syntax that allows you to pass in a variable number of parameters into a python method.  One option is _*args_ and the other is _**kwargs_.  _*args_ allows a variable number of arguments into a method.
 
@@ -115,6 +115,8 @@ dynamic_kwargs(first ='Welcome', mid ='To', last='Python')
 # mid == To
 # last == Python
 ```
+
+Please note that the names (_*args_ and _**kwarg_) are by convention only.  They can be any valid python variable name.
 
 But wait!  There is more.  if you buy now you can use this format for input as well.  Consider the following code.
 
@@ -248,7 +250,10 @@ x, y = swap(x, y)
 print(x,y)
 ```
 
-Considering the capabilities of the language you are using is important for every language.  Python developers even coined a name for it - _pythonic_.  Thinking about the capabilities is very important.  While you are reading you may see non-pythonic examples to illustrate concepts but eventually arive at a pythonic conclusion.
+Considering the capabilities of the language you are using is important for every language.  Python developers even coined a name for it - _pythonic_.  Thinking about these capabilities is very important.  While you are reading you may see non-pythonic examples to illustrate concepts but eventually arive at a pythonic conclusion.
+
+## Generators
+There is another method to return multipe
 
 # Classes
 A python class is a template for putting together objects within Python.  Object oriented programing is a class all on its own but we should keep well known object oriented principles in mind.  Objects have attributes and functions associated with it.  Classes are defined by the *class* keyword followed by the name of the class and a colon.  By convention, classnames start with an uppercase name.  

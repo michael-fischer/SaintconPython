@@ -43,11 +43,11 @@ A couple of extra useful commands include being able to prepare an environment. 
 It is also possible to run all of the previous commands through the Python3 executable by adding '`python3 -m `' to the beginning of the command. 
 
 # venv
-Venv is a tool that is used to create and virtual environments.  But what does that mean?  A virtual environment is a sel-contained directory tree which an installation of Python and some supporting packages.  It is the successor to a tool called virtualenv.  
+Venv is a tool that is used to create virtual environments.  But what does that mean?  A virtual environment is a self-contained directory tree which an installation of Python and supporting packages.  It is the successor to a tool called virtualenv.  
 
 What are some of the benefits for using a virtual environment?
 
-- Consider the potential for breaking changes for other scripts on the system.
+- Consider the potential for breaking changes for other scripts executing on the system.
 - Consider the need to execute the Python script on a build system or customer system that you want to be the same after it is done.
 
 ## common venv commands
