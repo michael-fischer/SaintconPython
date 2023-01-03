@@ -1,6 +1,6 @@
 from mailmerge import MailMerge
 
-template = "office/Remediation Report Template.docx"
+template = "Module 11 - Office Documents/Remediation Report Template.docx"
 outfile = "test.docx"
 
 document = MailMerge(template)

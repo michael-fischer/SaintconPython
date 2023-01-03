@@ -8,3 +8,10 @@ def my_decorator(func):
         print("We are able to add code after the function.")
 
     return wrapper
+
+
+def my_function():
+    print("hello world")
+
+my_function = my_decorator(my_function)
+my_function()

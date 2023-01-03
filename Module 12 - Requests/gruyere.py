@@ -1,6 +1,7 @@
 import requests
 
-session_id = '372024854800729218315573898331817432705'
+# The session id must be updated to be a valid Gruyere session
+session_id = '634700381161577780946837936423385334976'
 url_base = 'http://google-gruyere.appspot.com/{}/{}'
 sign_in_page = 'login'
 

@@ -39,9 +39,6 @@ Please be sure to check out the [Prerequisites](Module&#32;00&#32;-&#32;Front&#3
 
     Offline 3.10.6 - [[PDF](https://docs.python.org/3/archives/python-3.9.7-docs-pdf-letter.zip) | [EPUB](https://docs.python.org/3/archives/python-3.9.7-docs.epub) | [HTML](https://docs.python.org/3/archives/python-3.9.7-docs-html.zip) | [Text](https://docs.python.org/3/archives/python-3.9.7-docs-text.zip)]
 
-    # 3.9.7
-    # Tke the above line out...
-
 - [Tutorials]()
 
 [Invent with Python](http://inventwithpython.com/) - Free python books by Al Sweigart.  Books published by No Starch Press.  Often seen in Humble Bundles.  Contains discount codes for Python courses at Udemy.

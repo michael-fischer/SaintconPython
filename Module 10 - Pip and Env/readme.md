@@ -8,9 +8,11 @@ Pip stands for Pip Installs Packages.  It is Python's official sanctioned packag
 
 The documentation for pip can be found [online](https://pip.pypa.io/en/stable/).
 
-Pip is installed by default in Python 3.4+. However, you can verify that it is installed by running `python3 -m ensurepip --default-pip` which will return something similar to the following:
+Pip is installed by default in Python 3.4+. However, you can verify that it is installed by running `python3 -m ensurepip --default-pip`  which will return something similar to the following:
 
 ![Ensure Pip](ensure-pip.png)
+
+On some Debian/Ubuntu systems you may see an error `no module named ensurepip`  This is intentional but pip should be there.  Just running `pip` will show the help.
 
 ## Common pip commands
 
@@ -54,7 +56,7 @@ What are some of the benefits for using a virtual environment?
 
 `python3 -m venv *dir-name*` - Creates a directory tree in dir-name with a copy of the python interpreter, the standard library and supporting files.
 
-Once the directory is created it must be activated.
+Once the directory is created it must be activated.  On Debian/Ubuntu systems you may receive an error indicating that you should run `sudo apt install python3.10-pip` or similar.  Run the command and retry this command.
 
 ### linux/macOS
 `source tutorial-env/bin/activate`
@@ -66,3 +68,5 @@ if you are not using bash you can use csh (activate.csh) or fish (activate.fish)
 
 ## deactivate 
 When your are done it must be deactivated by using the `deactivate` command.    
+
+### tEOUBL
