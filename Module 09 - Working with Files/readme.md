@@ -29,7 +29,7 @@ buffering - Specifies the desired buffer size.
 |Positive Number|Use of buffer of approximately n bytes|
 
 ## Write a file
-![File write example](file_write.jpg)
+![File write example](file_write.png)
 
 Once you have exited the Python terminal you can see that there is new file that has been created as test.txt.  if you run `cat test.txt` you can see that there is no new line added to the line.  There are a couple of ways to add this to the file if necessary.  The first is the add '\n' to indicate a new line. Another way is to use the `readlines()` which will take list of strings and write each item to the file one item after another with new lines.
 
